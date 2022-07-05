@@ -10,24 +10,24 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/wardvisual/coalesce-api">
-    <img src="./public/assets/coalesce_banner.svg" alt="banner">
+  <a href="https://github.com/wardvisual/coalesced-api">
+    <img src="./public/assets/coalesced_api.svg" alt="banner">
   </a>
 
-  <h3 align="center">Coalesce-API</h3>
+  <h3 align="center">Coalesced-API</h3>
 
   <p align="center">
-  A web application that coalesces different APIs of a third-party API to build a coalesce-API. This project aims to produce a curated list of free APIs with an elegant user interface.
+  A web application that coalesces different APIs of a third-party API to build a coalesced-API. This project aims to produce a curated list of free APIs with an elegant user interface. 
     <br />
     <br />
-    <a href="https://github.com/wardvisual/coalesce-api"><strong>View Project »</strong></a>
+    <a href="https://github.com/wardvisual/coalesced-api"><strong>View Project »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/wardvisual/coalesce-api">View Demo</a>
+    <a href="https://github.com/wardvisual/coalesced-api">View Demo</a>
     ·
-    <a href="https://github.com/wardvisual/coalesce-api/issues">Report Bug</a>
+    <a href="https://github.com/wardvisual/coalesced-api/issues">Report Bug</a>
     ·
-    <a href="https://github.com/wardvisual/coalesce-api/issues">Request Feature</a>
+    <a href="https://github.com/wardvisual/coalesced-api/issues">Request Feature</a>
   </p>
 </div>
 
@@ -47,7 +47,7 @@ This project was restricted to only using NPM.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/wardvisual/coalesce-api.git
+   git clone https://github.com/wardvisual/coalesced-api.git
    ```
 2. Install NPM packages
    ```sh
@@ -59,7 +59,7 @@ This project was restricted to only using NPM.
 ## Contact
 
 Edward Fernandez - [@wardvisual](https://twitter.com/wardvisual)
-Project Link: [Coalesce-API](https://github.com/wardvisual/coalesce-api)
+Project Link: [Coalesced-API](https://github.com/wardvisual/coalesced-api)
 
 <!-- ACKNOWLEDGMENTS -->
 
