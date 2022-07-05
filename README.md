@@ -17,7 +17,7 @@
   <h3 align="center">Coalesce-API</h3>
 
   <p align="center">
-  A Coalesce-API is a collection of an API that uses a third-party API to build a Coalesce-API. This project aims to produce a curated list of free APIs with an elegant user interface.
+  A web application that coalesces different APIs of a third-party API to build a coalesce-API. This project aims to produce a curated list of free APIs with an elegant user interface.
     <br />
     <br />
     <a href="https://github.com/wardvisual/coalesce-api"><strong>View Project »</strong></a>
