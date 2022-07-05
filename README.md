@@ -1,34 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div id="top"></div>
 
-## Getting Started
+<!-- [![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url] -->
 
-First, run the development server:
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/wardvisual/unitedly-api">
+    <img src="./public/assets/unitedly_api.svg" alt="banner">
+  </a>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+  <h3 align="center">Unitedly-API</h3>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  <p align="center">
+   A Unitedly-API is a collection of an API that uses a third-party API to produce a Unitedly-API. This project was built on top of the ReactJS framework, which was NextJS. Unitedly-API aims to provide a curated list of free APIs with an elegant user interface.
+    <br />
+    <br />
+    <a href="https://github.com/wardvisual/unitedly-api"><strong>View Project »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/wardvisual/unitedly-api">View Demo</a>
+    ·
+    <a href="https://github.com/wardvisual/unitedly-api/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/wardvisual/unitedly-api/issues">Request Feature</a>
+  </p>
+</div>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Built With
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Technologies and Tools that this project used.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- [Next.js](https://nextjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [VSCode](https://code.visualstudio.com/)
 
-## Learn More
+<!-- INSTALLATION -->
 
-To learn more about Next.js, take a look at the following resources:
+### Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project was restricted to only using NPM.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Clone the repo
+   ```sh
+   git clone https://github.com/wardvisual/unitedly-api.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
-## Deploy on Vercel
+<!-- CONTACT -->
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Edward Fernandez - [@wardvisual](https://twitter.com/wardvisual)
+Project Link: [Unitedly-API](https://github.com/wardvisual/unitedly-api)
+
+<!-- ACKNOWLEDGMENTS -->
+
+## Acknowledgments
+
+A special thanks to api.publicapis.org for this wonderful list of apis.
+
+- [Public APIs](https://api.publicapis.org)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
