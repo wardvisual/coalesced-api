@@ -8,7 +8,6 @@
 // style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
 // test: Adding missing tests or correcting existing tests
 
-
 module.exports = {
   extends: ['@commitlint/config-conventional'],
   rules: {
@@ -20,8 +19,7 @@ module.exports = {
     'scope-case': [2, 'always', 'lower-case'],
     'subject-case': [
       2,
-      'never',
-      ['sentence-case', 'start-case', 'pascal-case', 'upper-case'],
+      'never', ['sentence-case', 'start-case', 'pascal-case', 'upper-case'],
     ],
     'subject-empty': [2, 'never'],
     'subject-full-stop': [2, 'never', '.'],
@@ -29,8 +27,7 @@ module.exports = {
     'type-empty': [2, 'never'],
     'type-enum': [
       2,
-      'always',
-      [
+      'always', [
         'build',
         'chore',
         'ci',
