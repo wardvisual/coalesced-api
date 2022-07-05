@@ -1,5 +1,5 @@
 {
-    "name": "coalesce-api",
+    "name": "coalesced-api",
     "private": true,
     "engines": {
         "node": "17.3.0",
@@ -7,7 +7,7 @@
     },
     "author": {
         "name": "Edward Fernandez",
-        "url": "https://www.github.com/wardvisual/coalesce-api"
+        "url": "https://www.github.com/wardvisual/coalesced-api"
     },
     "scripts": {
         "dev": "next dev",
