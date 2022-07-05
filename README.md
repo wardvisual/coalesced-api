@@ -17,7 +17,7 @@
   <h3 align="center">Unitedly-API</h3>
 
   <p align="center">
-   A Unitedly-API is a collection of an API that uses a third-party API to produce a Unitedly-API. This project was built on top of the ReactJS framework, which was NextJS. Unitedly-API aims to provide a curated list of free APIs with an elegant user interface.
+  A Unitedly-API is a collection of an API that uses a third-party API to build a Unitedly-API. This project aims to produce a curated list of free APIs with an elegant user interface.
     <br />
     <br />
     <a href="https://github.com/wardvisual/unitedly-api"><strong>View Project »</strong></a>
