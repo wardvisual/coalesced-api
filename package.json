@@ -1,5 +1,5 @@
 {
-    "name": "unitedly-api",
+    "name": "coalesce-api",
     "private": true,
     "engines": {
         "node": "17.3.0",
@@ -7,7 +7,7 @@
     },
     "author": {
         "name": "Edward Fernandez",
-        "url": "https://www.github.com/wardvisual/unitedly-api"
+        "url": "https://www.github.com/wardvisual/coalesce-api"
     },
     "scripts": {
         "dev": "next dev",
@@ -23,8 +23,6 @@
         "react-dom": "18.2.0"
     },
     "devDependencies": {
-        "@commitlint/cli": "^17.0.3",
-        "@commitlint/config-conventional": "^17.0.3",
         "@types/node": "18.0.1",
         "@types/react": "18.0.14",
         "eslint": "8.19.0",
