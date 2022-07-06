@@ -17,7 +17,7 @@
   <h3 align="center">Coalesced-API</h3>
 
   <p align="center">
-⚡ A web application that coalesces different APIs of a third-party API to build a coalesced-API. This project aims to produce a curated list of free APIs with an elegant and interactive user interface.
+  A web application that coalesces different APIs of a third-party API to build a coalesced-API. This project aims to produce a curated list of free APIs with an elegant and interactive UI and UX.
     <br />
     <br />
     <a href="https://github.com/wardvisual/coalesced-api"><strong>View Project »</strong></a>
@@ -46,10 +46,13 @@ Technologies and Tools that this project used.
 This project was restricted to only using NPM.
 
 1. Clone the repo
+
    ```sh
    git clone https://github.com/wardvisual/coalesced-api.git
    ```
+
 2. Install NPM packages
+
    ```sh
    npm install
    ```
