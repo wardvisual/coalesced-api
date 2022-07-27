@@ -4,6 +4,9 @@ const nextConfig = {
     images: {
         domains: ['i.pravatar.cc'],
     },
+    experimental: {
+        externalDir: true,
+    },
 };
 
 module.exports = nextConfig;
