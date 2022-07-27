@@ -1,13 +1,14 @@
 import type { NextPage } from 'next';
 
-const Home: NextPage = () => {
+/* Features */
+import { Home } from '../features';
+
+const HomePage: NextPage = () => {
   return (
     <div>
-      <h1>Login Now</h1>
-      <input type="text" />
-      <input type="text" />
+      <Home />
     </div>
   );
 };
 
-export default Home;
+export default HomePage;
