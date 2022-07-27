@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 
 /* Features */
-import { Home } from '../features';
+import { Home } from '@/features/';
 
 const HomePage: NextPage = () => {
   return (
