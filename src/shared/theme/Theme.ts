@@ -1,6 +1,6 @@
 import defaultStyled, {
   ThemedStyledInterface,
-  ThemeProvider as SThemeProvider
+  ThemeProvider as SThemeProvider,
 } from 'styled-components';
 
 /* Constants */
@@ -15,7 +15,7 @@ export const IColors: IColorTheme = {
 };
 
 export const IScreen: IScreenTheme = {
-  extraSmallMediaMedia: `@media (min-width: ${ScreenSize.EXTRA_smallMedia})`,
+  extraSmallMediaMedia: `@media (min-width: ${ScreenSize.extraSmallMedia})`,
   smallMedia: `@media (min-width: ${ScreenSize.smallMedia})`,
   mediumMedia: `@media (min-width: ${ScreenSize.mediumMedia})`,
   largeMedia: `@media (min-width: ${ScreenSize.largeMedia})`,
