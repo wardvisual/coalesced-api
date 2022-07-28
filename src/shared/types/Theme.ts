@@ -8,11 +8,11 @@ export interface IColorTheme {
 }
 
 export interface IScreenTheme {
-  extraSmallMediaMedia: string;
+  extraSmallMedia: string;
   smallMedia: string;
   mediumMedia: string;
   largeMedia: string;
-  extraLargeMediaMedia: string;
+  extraLargeMedia: string;
 }
 
 export interface ITheme {

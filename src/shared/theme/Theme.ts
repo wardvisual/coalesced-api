@@ -15,11 +15,11 @@ export const IColors: IColorTheme = {
 };
 
 export const IScreen: IScreenTheme = {
-  extraSmallMediaMedia: `@media (min-width: ${ScreenSize.extraSmallMedia})`,
+  extraSmallMedia: `@media (min-width: ${ScreenSize.extraSmallMedia})`,
   smallMedia: `@media (min-width: ${ScreenSize.smallMedia})`,
   mediumMedia: `@media (min-width: ${ScreenSize.mediumMedia})`,
   largeMedia: `@media (min-width: ${ScreenSize.largeMedia})`,
-  extraLargeMediaMedia: `@media (min-width: ${ScreenSize.EXTRA_largeMedia})`,
+  extraLargeMedia: `@media (min-width: ${ScreenSize.EXTRA_largeMedia})`,
 };
 
 export const ThemeProvider = SThemeProvider;
