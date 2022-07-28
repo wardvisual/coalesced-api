@@ -19,7 +19,9 @@ const Layout = ({ title, children }: LayoutProps) => {
     <Fragment>
       {/* HEAD */}
       <Head>
-        <title>{title ? title : Application.TITLE}</title>
+        <title>
+          {title ? `${title} - ${Application.TITLE}` : Application.TITLE}
+        </title>
       </Head>
 
       {/* MAIN */}
