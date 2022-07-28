@@ -1,8 +1,8 @@
 import { ReactNode } from 'react';
 
-interface LayoutProps {
+interface ILayout {
   title?: string;
   children: ReactNode;
 }
 
-export default LayoutProps;
+export default ILayout;
