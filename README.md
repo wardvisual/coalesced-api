@@ -31,6 +31,12 @@
   </p>
 </div>
 
+### Project Screenshot(s)
+
+<a align="center" href="https://github.com/wardvisual/coalesced-api">
+  <img src="./public/assets/images/homepage_ss.png" alt="ss">
+</a>
+
 ### Built With
 
 Technologies and Tools that this project used.
