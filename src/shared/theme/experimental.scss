@@ -1,3 +1,19 @@
-@font-face {
-    font-family: 'dsa';
+.available__font-style {
+    font-style: italic;
+    font-style: normal;
+    font-style: oblique;
+    font-style: inherit;
+    font-style: initial;
+    font-style: unset;
+}
+
+.available__font-weight {
+    // range: 100 - 900
+    font-weight: bold;
+    font-weight: bolder;
+    font-weight: lighter;
+    font-weight: normal;
+    font-weight: inherit;
+    font-weight: initial;
+    font-weight: unset;
 }
