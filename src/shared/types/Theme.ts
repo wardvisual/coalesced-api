@@ -8,11 +8,11 @@ export interface IColorTheme {
 }
 
 export interface IScreenTheme {
-  xSmall: number;
-  small: number;
-  medium: number;
-  large: number;
-  xLarge: number;
+  extraSmallMediaMedia: string;
+  smallMedia: string;
+  mediumMedia: string;
+  largeMedia: string;
+  extraLargeMediaMedia: string;
 }
 
 export interface ITheme {
