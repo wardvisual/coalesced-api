@@ -47,8 +47,12 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         margin: 0;
         box-sizing: border-box;
+    }
+
+    body, html {
         font-family: sansation;
-        font-weight: bold;
+        font-weight: normal;
+        font-style: normal;
     }
     
     a {
