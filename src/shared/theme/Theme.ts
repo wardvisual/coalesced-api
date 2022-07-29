@@ -7,23 +7,28 @@ import defaultStyled, {
 import { ScreenSize } from '@/shared/constants';
 
 /* Types */
-import { IColorTheme, IScreenTheme, ITheme } from '@/shared/types';
+import { IColorTheme, IDeviceTheme, ITheme } from '@/shared/types';
 
 export const IColors: IColorTheme = {
-  colorWhitePrimary: '#F5F5F5',
+  colorWhitePrimary: '#EEFAFF',
   colorBlackPrimary: '#0D0D0D',
 };
 
-export const IScreen: IScreenTheme = {
-  extraSmallMedia: `@media (min-width: ${ScreenSize.extraSmallMedia})`,
-  smallMedia: `@media (min-width: ${ScreenSize.smallMedia})`,
-  mediumMedia: `@media (min-width: ${ScreenSize.mediumMedia})`,
-  largeMedia: `@media (min-width: ${ScreenSize.largeMedia})`,
-  extraLargeMedia: `@media (min-width: ${ScreenSize.EXTRA_largeMedia})`,
+export const IDeviceScreen: IDeviceTheme = {
+  MobileSmall: `(min-width: ${ScreenSize.MobileSmall})`,
+  MobileMedium: `(min-width: ${ScreenSize.MobileMedium})`,
+  MobileLarge: `(min-width: ${ScreenSize.MobileLarge})`,
+  Tablet: `(min-width: ${ScreenSize.Tablet})`,
+  Laptop: `(min-width: ${ScreenSize.Laptop})`,
+  LaptopLarge: `(min-width: ${ScreenSize.LaptopLarge})`,
+  Desktop: `(min-width: ${ScreenSize.Desktop})`,
 };
 
 export const ThemeProvider = SThemeProvider;
 
 export const styled: ThemedStyledInterface<ITheme> = defaultStyled;
 
-export const theme = (): ITheme => ({ colors: IColors, screens: IScreen });
+export const theme = (): ITheme => ({
+  color: IColors,
+  device: IDeviceScreen,
+});
