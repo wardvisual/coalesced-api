@@ -34,7 +34,8 @@
 ### Project Screenshot(s)
 
 <a align="center" href="https://github.com/wardvisual/coalesced-api">
-  <img src="./public/assets/images/homepage_ss.png" alt="ss">
+  <img src="./public/assets/images/homepage_desktop.png" alt="desktop view">
+  <img src="./public/assets/images/homepage_mobile.png" alt="mobile view">
 </a>
 
 ### Built With
