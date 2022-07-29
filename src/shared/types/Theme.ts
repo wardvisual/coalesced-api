@@ -7,15 +7,17 @@ export interface IColorTheme {
   colorBlueSecondary?: string;
 }
 
-export interface IScreenTheme {
-  extraSmallMedia: string;
-  smallMedia: string;
-  mediumMedia: string;
-  largeMedia: string;
-  extraLargeMedia: string;
+export interface IDeviceTheme {
+  MobileSmall: string;
+  MobileMedium: string;
+  MobileLarge: string;
+  Tablet: string;
+  Laptop: string;
+  LaptopLarge: string;
+  Desktop: string;
 }
 
 export interface ITheme {
-  colors: IColorTheme;
-  screens: IScreenTheme;
+  color: IColorTheme;
+  device: IDeviceTheme;
 }
