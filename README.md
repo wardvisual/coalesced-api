@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/wardvisual/coalesced-api">
-    <img src="./public/assets/coalesced_api.svg" alt="banner">
+    <img src="./public/assets/images/banner.png" alt="banner">
   </a>
 
   <h3 align="center">Coalesced-API</h3>
