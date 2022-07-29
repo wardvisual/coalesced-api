@@ -1,10 +1,12 @@
 /* eslint-disable no-unused-vars */
 enum ScreenSize {
-  extraSmallMedia = 375,
-  smallMedia = 576,
-  mediumMedia = 768,
-  largeMedia = 992,
-  EXTRA_largeMedia = 1200,
+  MobileSmall = '320px',
+  MobileMedium = '375px',
+  MobileLarge = '425px',
+  Tablet = '768px',
+  Laptop = '1024px',
+  LaptopLarge = '1440px',
+  Desktop = '2560px',
 }
 
 export default ScreenSize;
