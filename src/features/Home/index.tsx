@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <HomeWrapper>
       <h1>h111</h1>
-      <button>HEY</button>
+      <button>HEddY</button>
       <Image src={banner} alt="banner" layout="fill" />
     </HomeWrapper>
   );
