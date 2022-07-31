@@ -1,21 +1,12 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-    // @font-face {
-    //     font-family: 'sansation';
-    //     src: url('../../../public/assets/fonts/Sansation-Bold-webfont.woff') format('woff');
-    //     font-weight: normal;
-    //     font-style: normal;
-    //     font-display: swap;
-    // }
-    
-    // @font-face {
-    //     font-family: 'poppins';
-    //     src: url('../../../public/assets/fonts/Poppins-Regular.woff') format('woff');
-    //     font-weight: normal;
-    //     font-style: normal;
-    //     font-display: swap;
-    // }
+    :root {
+        --color-black-1: #0D0D0D;  
+        --color-white-1: #EEFAFF;  
+        
+        --radius-5: 5px;
+    }
     
     *, *::before, *::after {
         padding: 0;
@@ -27,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body, html {
-        background: #0D0D0D;
+        background: var( --color-black-1);
     }
     
     a {
@@ -36,6 +27,10 @@ const GlobalStyle = createGlobalStyle`
     
     ol, ul {
         list-style: none;
+    }
+    
+    .root__layout {
+        padding: 1em;
     }
 `;
 
