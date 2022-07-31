@@ -16,12 +16,12 @@ import { GlobalStyle, theme, ThemeProvider } from '@/shared/theme';
  */
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
-    <Layout>
-      <ThemeProvider theme={theme}>
-        <GlobalStyle />
+    <ThemeProvider theme={theme}>
+      <GlobalStyle />
+      <Layout root>
         <Component {...pageProps} />
-      </ThemeProvider>
-    </Layout>
+      </Layout>
+    </ThemeProvider>
   );
 };
 
