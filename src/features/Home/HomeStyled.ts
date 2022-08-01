@@ -1,10 +1,9 @@
 import { styled } from '@/shared/theme';
 
 const HomeWrapper = styled.div`
-  h1 {
-    font-family: 'poppins';
-    font-size: 2rem;
-  }
+  display: grid;
+  grid-gap: 2em;
+  place-items: center;
 `;
 
 export default HomeWrapper;
