@@ -4,7 +4,7 @@ import type { NextPage } from 'next';
 import { Home } from '@/features';
 
 /* Layout */
-import { Layout } from '@/shared/layouts';
+import { Layout } from '@/shared/components/templates/Layout';
 
 /**
  * The HomePage function is a React component that returns a Layout component with a title prop and a
