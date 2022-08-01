@@ -19,6 +19,7 @@ const GlobalStyle = createGlobalStyle`
 
     body, html {
         background: var( --color-black-1);
+        color: var(--color-white-1);
     }
     
     a {
