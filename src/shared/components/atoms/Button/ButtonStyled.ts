@@ -8,11 +8,11 @@ export const ButtonWrapper = styled.button`
   cursor: pointer;
 
   text-align: center;
-  font-size: 0.7em;
+  font-size: clamp(0.5rem, 3.4vw, 0.9rem);
   font-weight: bold;
 
-  width: 100%;
-  min-width: 12em;
+  width: 100vw;
+  // min-width: 12em;
   max-width: 12em;
 
   display: flex;
