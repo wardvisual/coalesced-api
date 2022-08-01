@@ -1,14 +1,25 @@
 /* eslint-disable @next/next/no-img-element */
 import { NextPage } from 'next';
 
-import { IText, TextWrapper } from '@/shared/components/atoms/Text';
+import {
+  IText,
+  Lead,
+  TextWrapper,
+  TitleHeading,
+} from '@/shared/components/atoms/Text';
 
 const Text: NextPage<IText> = (props) => {
-  return (
-    <TextWrapper>
-      <h1>Some Text</h1>
-    </TextWrapper>
-  );
+  let element;
+
+  if (props.lead) {
+    element = <Lead text={props.text} />;
+  }
+
+  if (props.titleHeading) {
+    element = <TitleHeading text={props.text} />;
+  }
+
+  return <TextWrapper>{element}</TextWrapper>;
 };
 
 export default Text;

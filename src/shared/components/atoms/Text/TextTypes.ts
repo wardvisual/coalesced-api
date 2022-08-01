@@ -1,14 +1,8 @@
-import { ReactNode } from 'react';
-
-interface IType {
-  Lead: ReactNode;
-  TitleHeading: ReactNode;
-  SubHeading: ReactNode;
-  Paragraph: ReactNode;
-}
-
 interface IText {
-  type: IType;
+  lead?: true | false;
+  titleHeading?: true | false;
+  subHeading?: true | false;
+  paragraph?: true | false;
   text: string;
 }
 

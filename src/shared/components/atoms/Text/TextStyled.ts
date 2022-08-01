@@ -1,8 +1,15 @@
 import { styled } from '@/shared/theme';
 
-const TextWrapper = styled.div`
-  h1 {
-  }
+const TextWrapper = styled.div``;
+
+const ParagraphWrapper = styled.p``;
+
+const LeadWrapper = styled.p`
+  color: #bcbcbc;
+  text-transform: uppercase;
+  font-weight: 400;
 `;
 
-export default TextWrapper;
+const TitleHeadingWrapper = styled.h2``;
+
+export { TextWrapper, ParagraphWrapper, TitleHeadingWrapper, LeadWrapper };
