@@ -1,8 +1,15 @@
+import { IButton } from '@/shared/components/atoms/Button';
 import { styled } from '@/shared/theme';
 
-export const ButtonWrapper = styled.button`
-  background-color: ${({ color }) => color || 'var(--color-white-1)'};
-  border: none;
+export const ButtonWrapper = styled.button<IButton>`
+  background-color: ${(prop) =>
+    (prop.outlined && 'var(--color-black-1)') || 'var(--color-white-1)'};
+  color: ${(prop) =>
+    (prop.outlined && 'var(--color-white-1)') || 'var(--color-black-1)'};
+  border: 1px
+    ${(prop) =>
+      (prop.outlined && 'var(--color-white-1)') || 'var(--color-black-1)'}
+    solid;
   padding: 0.7em;
   border-radius: var(--radius-5);
   cursor: pointer;

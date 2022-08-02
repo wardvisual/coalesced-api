@@ -4,6 +4,7 @@ interface IButton {
   size?: string;
   type?: 'submit' | 'button';
   icon?: string;
+  outlined?: true | false;
 }
 
 export default IButton;

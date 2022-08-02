@@ -6,7 +6,8 @@ import { ButtonWrapper, IButton } from '@/shared/components/atoms/Button';
 
 const Button: NextPage<IButton> = (props) => (
   <ButtonWrapper {...props}>
-    {props.text} {props.icon && <Image src={props.icon} alt="icon" />}
+    {props.text}
+    {props.icon && <Image src={props.icon} alt={`button ${props.text}`} />}
   </ButtonWrapper>
 );
 
