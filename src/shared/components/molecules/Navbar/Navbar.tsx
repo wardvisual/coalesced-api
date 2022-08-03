@@ -1,10 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import { NextPage } from 'next';
-import Image from 'next/image';
 import Link from 'next/link';
 
 /* Components */
 import { Button } from '@/shared/components/atoms/Button';
+import { Image } from '@/shared/components/atoms/Image';
 import { INavbar, NavbarWrapper } from '@/shared/components/molecules/Navbar';
 
 /* Assets */
@@ -14,7 +14,7 @@ import logo from '@/assets/logos/logo.svg';
 const Navbar: NextPage<INavbar> = (props) => (
   <NavbarWrapper {...props}>
     <div>
-      <Image src={logo} alt="logo" width={150} />
+      <Image src={logo} alt="logo" height={45} maxHeight={80} />
     </div>
 
     <div>
