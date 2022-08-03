@@ -39,24 +39,14 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          {/* <link
-            rel="preload"
-            href="/public/assets/fonts/Poppins-Regular.woff"
-            as="font"
-            type="font/woff"
-            crossOrigin=""
+          <meta name="author" content="Edward Fernandez" />
+          <meta
+            name="keywords"
+            content="public apis, api, coalesced-api, coalesce api"
           />
-          <link
-            rel="preload"
-            href="/public/assets/fonts/Sansation-Bold-webfont.woff"
-            as="font"
-            type="font/woff"
-            crossOrigin=""
-          /> */}
-          <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-            rel="stylesheet"
-          />
+          <meta property="og:locale" content="en-US" />
+          <meta property="og:type" content="website" />
+          <meta name="description" content="coalesced free api for everyone" />
         </Head>
         <body>
           <Main />
