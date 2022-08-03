@@ -6,20 +6,26 @@ const GlobalStyle = createGlobalStyle`
         --color-white-1: #EEFAFF;  
         
         --radius-5: 5px;
+    } 
+    
+    @font-face {
+        font-family: 'poppins';
+        src: local('poppins'), url(/public/assets/fonts/Poppins-Regular.woff) format('woff');
+        font-style: normal
+        font-weight: normal;
+        font-display: fallback;
     }
     
     *, *::before, *::after {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
-        font-family: 'poppins';
-        font-weight: normal;
-        font-style: normal;
     }
 
     body, html {
         background: var( --color-black-1);
         color: var(--color-white-1);
+        font-family: 'poppins';
     }
     
     a {

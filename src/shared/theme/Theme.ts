@@ -11,7 +11,9 @@ import { IColorTheme, IDeviceTheme, ITheme } from '@/shared/types';
 
 export const IColors: IColorTheme = {
   colorWhitePrimary: '#EEFAFF',
+  colorWhiteSecondary: '#D7DBDC',
   colorBlackPrimary: '#0D0D0D',
+  colorBlackSecondary: '#1F1E1E',
 };
 
 export const IDeviceScreen: IDeviceTheme = {
